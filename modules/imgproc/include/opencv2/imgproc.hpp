@@ -4323,11 +4323,11 @@ CV_EXPORTS_W int rotatedRectangleIntersection( const RotatedRect& rect1, const R
 
 /** @brief Creates a smart pointer to a cv::GeneralizedHoughBallard class and initializes it.
 */
-CV_EXPORTS Ptr<GeneralizedHoughBallard> createGeneralizedHoughBallard();
+CV_EXPORTS_W Ptr<GeneralizedHoughBallard> createGeneralizedHoughBallard();
 
 /** @brief Creates a smart pointer to a cv::GeneralizedHoughGuil class and initializes it.
 */
-CV_EXPORTS Ptr<GeneralizedHoughGuil> createGeneralizedHoughGuil();
+CV_EXPORTS_W Ptr<GeneralizedHoughGuil> createGeneralizedHoughGuil();
 
 //! @} imgproc_shape
 
